@@ -1,20 +1,7 @@
 <project>
 <modelVersion>4.0.0</modelVersion>
 <groupId>org.demo.maven</groupId>
-<artifactId>demo-human-venkat-Jenkins</artifactId>
+<artifactId>demo-human-venkat-Jenkins-withoutNexus</artifactId>
 <version>1.0</version>
 <packaging>jar</packaging>
-<distributionManagement>
-  <repository>
-    <id>releases</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://172.16.103.204:8080/nexus/content/repositories/releases/</url>
-  </repository>
-  <snapshotRepository>
-    <id>snapshots</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://172.16.103.204:8080/nexus/content/repositories/snapshots/</url>
-  </snapshotRepository>
-</distributionManagement>
-
 </project>
